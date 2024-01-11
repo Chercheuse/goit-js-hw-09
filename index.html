@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    
-    <title></title>
-    <script type="module" crossorigin src="/vanilla-app-template/commonHelpers3.js"></script>
-    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-c9def49e.js">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-aaacd4d5.css">
-  </head>
 
-  <body>
-    <ul>
-      <ul class="gallery"></ul>
-      
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <title></title>
+  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers3.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-c9def49e.js">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-8c8fa3ea.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/index-ef2bf393.css">
+</head>
 
-    </ul>
-    
-    
-  </body>
+<body>
+  <ul>
+    <ul class="gallery"></ul> 
+    <form class="feedback-form" autocomplete="off">
+    <label>
+      Email
+      <input type="email" name="email" autofocus />
+    </label>
+    <label>
+      Message
+      <textarea name="message" rows="8"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+
+  </ul>
+  
+  
+</body>
+
 </html>
