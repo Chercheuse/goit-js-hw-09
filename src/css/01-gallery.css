@@ -2,12 +2,12 @@
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  padding: 24px 156px;
+  padding: 24px 149px;
 }
 
 .gallery > li {
   width: 360px;
-  height: 300px;
+  height: 200px;
   list-style-type: none;
   flex-shrink: 0;
 }
@@ -21,5 +21,5 @@ img {
 
 .gallery-image {
   width: 360px;
-  height: 300px;
+  height: 200px;
 }
